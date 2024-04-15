@@ -1,0 +1,13 @@
+location,freq
+mattapan,
+roxbury,
+dorchester,
+charlestown,
+east boston,
+hyde park,
+jamaica plain,
+mission hill,
+roslindale,
+south boston,
+south end,
+west roxbury,
