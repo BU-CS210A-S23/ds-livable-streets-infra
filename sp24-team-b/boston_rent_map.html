@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e47cc7ab4090f54c420f1b041bc13d65 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e47cc7ab4090f54c420f1b041bc13d65" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e47cc7ab4090f54c420f1b041bc13d65 = L.map(
+                "map_e47cc7ab4090f54c420f1b041bc13d65",
+                {
+                    center: [42.3601, -71.0589],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61d5e237d89ab827c9bb14ee44da427f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_61d5e237d89ab827c9bb14ee44da427f.addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var marker_11edbd8d31a8d98bc4e198f8d6ecb105 = L.marker(
+                [54.66989805, 25.2896276],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_cc9386610d5021a6dedc63562887c709 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_11edbd8d31a8d98bc4e198f8d6ecb105.setIcon(icon_cc9386610d5021a6dedc63562887c709);
+        
+    
+        var popup_25d54b746fdf9d1945f788ea13363aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09ad2bb083a55cfc8a283ce43e8303ef = $(`<div id="html_09ad2bb083a55cfc8a283ce43e8303ef" style="width: 100.0%; height: 100.0%;">Zip Code: 02108 Rent Units: 96 Income-Restricted Rental Units: 96</div>`)[0];
+                popup_25d54b746fdf9d1945f788ea13363aa2.setContent(html_09ad2bb083a55cfc8a283ce43e8303ef);
+            
+        
+
+        marker_11edbd8d31a8d98bc4e198f8d6ecb105.bindPopup(popup_25d54b746fdf9d1945f788ea13363aa2)
+        ;
+
+        
+    
+    
+            var marker_03ec88585fca09fb31bbe13d68f294d8 = L.marker(
+                [54.66728529130435, 25.28933731304348],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_05ac2fd43c0e707f4317a1aa11b8192d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_03ec88585fca09fb31bbe13d68f294d8.setIcon(icon_05ac2fd43c0e707f4317a1aa11b8192d);
+        
+    
+        var popup_2e51e978c3eeaf8e5dfcd545411a536b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63fa8adb52aa8473847e086ffc1c8577 = $(`<div id="html_63fa8adb52aa8473847e086ffc1c8577" style="width: 100.0%; height: 100.0%;">Zip Code: 02109 Rent Units: 453 Income-Restricted Rental Units: 377</div>`)[0];
+                popup_2e51e978c3eeaf8e5dfcd545411a536b.setContent(html_63fa8adb52aa8473847e086ffc1c8577);
+            
+        
+
+        marker_03ec88585fca09fb31bbe13d68f294d8.bindPopup(popup_2e51e978c3eeaf8e5dfcd545411a536b)
+        ;
+
+        
+    
+    
+            var marker_18bfda60758a603b59e3f54a9a9d92c3 = L.marker(
+                [49.9579238, 3.504035575412238],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_02a4eb554fc2fda1b9fa389174b81010 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_18bfda60758a603b59e3f54a9a9d92c3.setIcon(icon_02a4eb554fc2fda1b9fa389174b81010);
+        
+    
+        var popup_ad662ef4f876218417839768e0699224 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7351627dc1c647ce20f6cf4071ee350 = $(`<div id="html_d7351627dc1c647ce20f6cf4071ee350" style="width: 100.0%; height: 100.0%;">Zip Code: 02110 Rent Units: 369 Income-Restricted Rental Units: 32</div>`)[0];
+                popup_ad662ef4f876218417839768e0699224.setContent(html_d7351627dc1c647ce20f6cf4071ee350);
+            
+        
+
+        marker_18bfda60758a603b59e3f54a9a9d92c3.bindPopup(popup_ad662ef4f876218417839768e0699224)
+        ;
+
+        
+    
+    
+            var marker_3b6ed533a4ddfc2ff5f0502643ecf799 = L.marker(
+                [54.6680139, 25.28536998888889],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_255f71283b4ecd6e3452d75589143d8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3b6ed533a4ddfc2ff5f0502643ecf799.setIcon(icon_255f71283b4ecd6e3452d75589143d8a);
+        
+    
+        var popup_244da0de2b25e9075da4b8f78275c2c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_906f6697af4183ecd83847b7ee788df1 = $(`<div id="html_906f6697af4183ecd83847b7ee788df1" style="width: 100.0%; height: 100.0%;">Zip Code: 02111 Rent Units: 2078 Income-Restricted Rental Units: 1128</div>`)[0];
+                popup_244da0de2b25e9075da4b8f78275c2c0.setContent(html_906f6697af4183ecd83847b7ee788df1);
+            
+        
+
+        marker_3b6ed533a4ddfc2ff5f0502643ecf799.bindPopup(popup_244da0de2b25e9075da4b8f78275c2c0)
+        ;
+
+        
+    
+    
+            var marker_69be6e5220c1381a6501cc4ba14c0032 = L.marker(
+                [54.66649012222222, 25.282902755555554],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_72061586b5cefb57f44f898fee67594e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_69be6e5220c1381a6501cc4ba14c0032.setIcon(icon_72061586b5cefb57f44f898fee67594e);
+        
+    
+        var popup_906325584cb4cef9e3825a83d950d534 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02073b31803250a76056e7f724943a14 = $(`<div id="html_02073b31803250a76056e7f724943a14" style="width: 100.0%; height: 100.0%;">Zip Code: 02113 Rent Units: 194 Income-Restricted Rental Units: 179</div>`)[0];
+                popup_906325584cb4cef9e3825a83d950d534.setContent(html_02073b31803250a76056e7f724943a14);
+            
+        
+
+        marker_69be6e5220c1381a6501cc4ba14c0032.bindPopup(popup_906325584cb4cef9e3825a83d950d534)
+        ;
+
+        
+    
+    
+            var marker_6e797f195fd318c94b5420d422189506 = L.marker(
+                [38.754912, -2.3093719],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_e286aef726e62b403ea7bccd0147fed3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e797f195fd318c94b5420d422189506.setIcon(icon_e286aef726e62b403ea7bccd0147fed3);
+        
+    
+        var popup_0e4884ff93010f498387dabeb36fcb7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_149fe78347bd564ea236b95a6a805717 = $(`<div id="html_149fe78347bd564ea236b95a6a805717" style="width: 100.0%; height: 100.0%;">Zip Code: 02114 Rent Units: 3935 Income-Restricted Rental Units: 1264</div>`)[0];
+                popup_0e4884ff93010f498387dabeb36fcb7b.setContent(html_149fe78347bd564ea236b95a6a805717);
+            
+        
+
+        marker_6e797f195fd318c94b5420d422189506.bindPopup(popup_0e4884ff93010f498387dabeb36fcb7b)
+        ;
+
+        
+    
+    
+            var marker_54b714526cabca243fb3e57559789b97 = L.marker(
+                [54.6651129, 25.28321482142857],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_68eb367f86577638d6604fd1c29fa63e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_54b714526cabca243fb3e57559789b97.setIcon(icon_68eb367f86577638d6604fd1c29fa63e);
+        
+    
+        var popup_be199bbd7c227ae94e1c046c2fdfc201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_961bdf27579d4f92c1029c5cb88f33fd = $(`<div id="html_961bdf27579d4f92c1029c5cb88f33fd" style="width: 100.0%; height: 100.0%;">Zip Code: 02115 Rent Units: 3428 Income-Restricted Rental Units: 2951</div>`)[0];
+                popup_be199bbd7c227ae94e1c046c2fdfc201.setContent(html_961bdf27579d4f92c1029c5cb88f33fd);
+            
+        
+
+        marker_54b714526cabca243fb3e57559789b97.bindPopup(popup_be199bbd7c227ae94e1c046c2fdfc201)
+        ;
+
+        
+    
+    
+            var marker_85c5f4e658bb3ff80f933d5146da8689 = L.marker(
+                [54.663782975, 25.287307544999997],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_17a6fd365bbce70a17a07a0e4172d942 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85c5f4e658bb3ff80f933d5146da8689.setIcon(icon_17a6fd365bbce70a17a07a0e4172d942);
+        
+    
+        var popup_dbe1c2689166568bc733f11ed96584f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f12f927b21703b7c73ec92725cb4d41a = $(`<div id="html_f12f927b21703b7c73ec92725cb4d41a" style="width: 100.0%; height: 100.0%;">Zip Code: 02116 Rent Units: 3407 Income-Restricted Rental Units: 2322</div>`)[0];
+                popup_dbe1c2689166568bc733f11ed96584f0.setContent(html_f12f927b21703b7c73ec92725cb4d41a);
+            
+        
+
+        marker_85c5f4e658bb3ff80f933d5146da8689.bindPopup(popup_dbe1c2689166568bc733f11ed96584f0)
+        ;
+
+        
+    
+    
+            var marker_ce78e82ceaa037a8b8819ac4b02085ae = L.marker(
+                [54.66316493529411, 25.291375702941178],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_bed2d5907ad527becdac0bd37b71cd4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ce78e82ceaa037a8b8819ac4b02085ae.setIcon(icon_bed2d5907ad527becdac0bd37b71cd4f);
+        
+    
+        var popup_0190827f742e00e759ca6938beaf408d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d3f65c5534e35a6c081e22a1dbcc217 = $(`<div id="html_8d3f65c5534e35a6c081e22a1dbcc217" style="width: 100.0%; height: 100.0%;">Zip Code: 02118 Rent Units: 7949 Income-Restricted Rental Units: 5731</div>`)[0];
+                popup_0190827f742e00e759ca6938beaf408d.setContent(html_8d3f65c5534e35a6c081e22a1dbcc217);
+            
+        
+
+        marker_ce78e82ceaa037a8b8819ac4b02085ae.bindPopup(popup_0190827f742e00e759ca6938beaf408d)
+        ;
+
+        
+    
+    
+            var marker_2a0870c3f2606f003f73e9e259c3386d = L.marker(
+                [54.661319582000004, 25.296206679],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_21418eb3d04f49ebd75ae143731a8a6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a0870c3f2606f003f73e9e259c3386d.setIcon(icon_21418eb3d04f49ebd75ae143731a8a6a);
+        
+    
+        var popup_6c24a2353a78c0899f25fce9df0b0a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3513e4a16b9e928957c7cdfe1634bfc = $(`<div id="html_b3513e4a16b9e928957c7cdfe1634bfc" style="width: 100.0%; height: 100.0%;">Zip Code: 02119 Rent Units: 6490 Income-Restricted Rental Units: 6162</div>`)[0];
+                popup_6c24a2353a78c0899f25fce9df0b0a51.setContent(html_b3513e4a16b9e928957c7cdfe1634bfc);
+            
+        
+
+        marker_2a0870c3f2606f003f73e9e259c3386d.bindPopup(popup_6c24a2353a78c0899f25fce9df0b0a51)
+        ;
+
+        
+    
+    
+            var marker_16fe331343abe1bb0de41b5ef283d851 = L.marker(
+                [49.901228450000005, 3.649828659737218],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_93ac11dfd53b9a5b3309014483e81adc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16fe331343abe1bb0de41b5ef283d851.setIcon(icon_93ac11dfd53b9a5b3309014483e81adc);
+        
+    
+        var popup_e418e321ce1f844cc007721a20f5df08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ce684feaa9ba97a0a0f0758579ac774 = $(`<div id="html_5ce684feaa9ba97a0a0f0758579ac774" style="width: 100.0%; height: 100.0%;">Zip Code: 02120 Rent Units: 2294 Income-Restricted Rental Units: 1719</div>`)[0];
+                popup_e418e321ce1f844cc007721a20f5df08.setContent(html_5ce684feaa9ba97a0a0f0758579ac774);
+            
+        
+
+        marker_16fe331343abe1bb0de41b5ef283d851.bindPopup(popup_e418e321ce1f844cc007721a20f5df08)
+        ;
+
+        
+    
+    
+            var marker_12be3e7fb58cc012aa4277a8af809a86 = L.marker(
+                [54.65405324651162, 25.307847882945737],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_c231a7eb21999d025043d40c9df479f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12be3e7fb58cc012aa4277a8af809a86.setIcon(icon_c231a7eb21999d025043d40c9df479f6);
+        
+    
+        var popup_477b1eeeb2ca34c2d48e3b8b77a3e64a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c30f4da4654e5f8bed6663b2add9f7c = $(`<div id="html_7c30f4da4654e5f8bed6663b2add9f7c" style="width: 100.0%; height: 100.0%;">Zip Code: 02121 Rent Units: 4500 Income-Restricted Rental Units: 4415</div>`)[0];
+                popup_477b1eeeb2ca34c2d48e3b8b77a3e64a.setContent(html_7c30f4da4654e5f8bed6663b2add9f7c);
+            
+        
+
+        marker_12be3e7fb58cc012aa4277a8af809a86.bindPopup(popup_477b1eeeb2ca34c2d48e3b8b77a3e64a)
+        ;
+
+        
+    
+    
+            var marker_ae4f5dbb94afc10ee842c7465ae79810 = L.marker(
+                [50.4582394, 30.6339935],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_23e1d4f2bb9778f8d2be61545aeff0e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae4f5dbb94afc10ee842c7465ae79810.setIcon(icon_23e1d4f2bb9778f8d2be61545aeff0e6);
+        
+    
+        var popup_af4c248a46cd87fe8cc4419d933f85c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd6d09adee0d6c523c0253940f9d0431 = $(`<div id="html_dd6d09adee0d6c523c0253940f9d0431" style="width: 100.0%; height: 100.0%;">Zip Code: 02122 Rent Units: 731 Income-Restricted Rental Units: 646</div>`)[0];
+                popup_af4c248a46cd87fe8cc4419d933f85c7.setContent(html_dd6d09adee0d6c523c0253940f9d0431);
+            
+        
+
+        marker_ae4f5dbb94afc10ee842c7465ae79810.bindPopup(popup_af4c248a46cd87fe8cc4419d933f85c7)
+        ;
+
+        
+    
+    
+            var marker_0edfcebd08a60efec3f59d11eb46c3f8 = L.marker(
+                [42.28693665479345, -71.06581212233047],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_0292725dccbbc1388715ee77c132202d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0edfcebd08a60efec3f59d11eb46c3f8.setIcon(icon_0292725dccbbc1388715ee77c132202d);
+        
+    
+        var popup_beb27a8e8e3d0347bfbd6aeda12498d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_033b48c8246fc759f40eb9955c1dd0d5 = $(`<div id="html_033b48c8246fc759f40eb9955c1dd0d5" style="width: 100.0%; height: 100.0%;">Zip Code: 02124 Rent Units: 3641 Income-Restricted Rental Units: 3238</div>`)[0];
+                popup_beb27a8e8e3d0347bfbd6aeda12498d2.setContent(html_033b48c8246fc759f40eb9955c1dd0d5);
+            
+        
+
+        marker_0edfcebd08a60efec3f59d11eb46c3f8.bindPopup(popup_beb27a8e8e3d0347bfbd6aeda12498d2)
+        ;
+
+        
+    
+    
+            var marker_5dd6bc898b57b37f8061d1d7b79a1b44 = L.marker(
+                [38.5549217, -2.073061833333333],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_212a131805b9ab92f847d2f240ed36af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5dd6bc898b57b37f8061d1d7b79a1b44.setIcon(icon_212a131805b9ab92f847d2f240ed36af);
+        
+    
+        var popup_8aac1da9efac36028787932b69d14a96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d52d1631ada6242907a715a53086874b = $(`<div id="html_d52d1631ada6242907a715a53086874b" style="width: 100.0%; height: 100.0%;">Zip Code: 02125 Rent Units: 2957 Income-Restricted Rental Units: 2287</div>`)[0];
+                popup_8aac1da9efac36028787932b69d14a96.setContent(html_d52d1631ada6242907a715a53086874b);
+            
+        
+
+        marker_5dd6bc898b57b37f8061d1d7b79a1b44.bindPopup(popup_8aac1da9efac36028787932b69d14a96)
+        ;
+
+        
+    
+    
+            var marker_bdd456e5df33ac24ded5c26609074f87 = L.marker(
+                [42.27415956216799, -71.09056858025843],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_d587fc029435c23a4ff16b0ff52bfbfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bdd456e5df33ac24ded5c26609074f87.setIcon(icon_d587fc029435c23a4ff16b0ff52bfbfd);
+        
+    
+        var popup_994402d9bcf46c2083f4d4915596cf60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a039e30fc5e2c019c9f1c97fa29cb57 = $(`<div id="html_2a039e30fc5e2c019c9f1c97fa29cb57" style="width: 100.0%; height: 100.0%;">Zip Code: 02126 Rent Units: 1734 Income-Restricted Rental Units: 1643</div>`)[0];
+                popup_994402d9bcf46c2083f4d4915596cf60.setContent(html_2a039e30fc5e2c019c9f1c97fa29cb57);
+            
+        
+
+        marker_bdd456e5df33ac24ded5c26609074f87.bindPopup(popup_994402d9bcf46c2083f4d4915596cf60)
+        ;
+
+        
+    
+    
+            var marker_aa5950c4854d0fef908f0d890e0d1d9e = L.marker(
+                [-9.28091044074074, -77.6473677654321],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_c82e32e5e3456b4be3a99ae26666a348 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa5950c4854d0fef908f0d890e0d1d9e.setIcon(icon_c82e32e5e3456b4be3a99ae26666a348);
+        
+    
+        var popup_36d79225e76fae7ed855ff6ccd60535d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50259d5a4c436236c859d6e65ffd7d3b = $(`<div id="html_50259d5a4c436236c859d6e65ffd7d3b" style="width: 100.0%; height: 100.0%;">Zip Code: 02127 Rent Units: 5323 Income-Restricted Rental Units: 3389</div>`)[0];
+                popup_36d79225e76fae7ed855ff6ccd60535d.setContent(html_50259d5a4c436236c859d6e65ffd7d3b);
+            
+        
+
+        marker_aa5950c4854d0fef908f0d890e0d1d9e.bindPopup(popup_36d79225e76fae7ed855ff6ccd60535d)
+        ;
+
+        
+    
+    
+            var marker_baeeec16696973a5ebe1413175b5fbe4 = L.marker(
+                [19.50145745, -99.18699794822888],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_043b3f30a4a31ff7b57e1a49dce0e953 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_baeeec16696973a5ebe1413175b5fbe4.setIcon(icon_043b3f30a4a31ff7b57e1a49dce0e953);
+        
+    
+        var popup_aa688c2d2f5cf959aa6ad5d3b6d4b4ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddb4c2dda4695d75e1d0a070c3cb45b4 = $(`<div id="html_ddb4c2dda4695d75e1d0a070c3cb45b4" style="width: 100.0%; height: 100.0%;">Zip Code: 02128 Rent Units: 3472 Income-Restricted Rental Units: 2638</div>`)[0];
+                popup_aa688c2d2f5cf959aa6ad5d3b6d4b4ae.setContent(html_ddb4c2dda4695d75e1d0a070c3cb45b4);
+            
+        
+
+        marker_baeeec16696973a5ebe1413175b5fbe4.bindPopup(popup_aa688c2d2f5cf959aa6ad5d3b6d4b4ae)
+        ;
+
+        
+    
+    
+            var marker_4ca050589c42c2f255ced0dba9ee1cd7 = L.marker(
+                [19.49810985, -99.18706791096763],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_13ef567bbf671a6b3de95e5dd33bad33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ca050589c42c2f255ced0dba9ee1cd7.setIcon(icon_13ef567bbf671a6b3de95e5dd33bad33);
+        
+    
+        var popup_55e7270eb77d6ef0f488c5c5644acc36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_914b5a05491d943795928627d37464bd = $(`<div id="html_914b5a05491d943795928627d37464bd" style="width: 100.0%; height: 100.0%;">Zip Code: 02129 Rent Units: 3159 Income-Restricted Rental Units: 2296</div>`)[0];
+                popup_55e7270eb77d6ef0f488c5c5644acc36.setContent(html_914b5a05491d943795928627d37464bd);
+            
+        
+
+        marker_4ca050589c42c2f255ced0dba9ee1cd7.bindPopup(popup_55e7270eb77d6ef0f488c5c5644acc36)
+        ;
+
+        
+    
+    
+            var marker_d709dd1009be34a3c113c6001266d17c = L.marker(
+                [49.1919647, 3.5629046418847774],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_f4db4730043b09905c90cc0a01b6eede = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d709dd1009be34a3c113c6001266d17c.setIcon(icon_f4db4730043b09905c90cc0a01b6eede);
+        
+    
+        var popup_f8ff5072791004c1562ef90511fb42df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7eec8fbe8be62ace41955812a950514 = $(`<div id="html_e7eec8fbe8be62ace41955812a950514" style="width: 100.0%; height: 100.0%;">Zip Code: 02130 Rent Units: 3776 Income-Restricted Rental Units: 3129</div>`)[0];
+                popup_f8ff5072791004c1562ef90511fb42df.setContent(html_e7eec8fbe8be62ace41955812a950514);
+            
+        
+
+        marker_d709dd1009be34a3c113c6001266d17c.bindPopup(popup_f8ff5072791004c1562ef90511fb42df)
+        ;
+
+        
+    
+    
+            var marker_a8b95f4fd64bb1dea546a78070bddefd = L.marker(
+                [42.28350860265105, -71.1289384011714],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_1c0fdf38efa200e657bbae24490d711f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8b95f4fd64bb1dea546a78070bddefd.setIcon(icon_1c0fdf38efa200e657bbae24490d711f);
+        
+    
+        var popup_893bbfe6198406df4314a601d3bbf409 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa656d8573a4835f39ef7d906f4fe202 = $(`<div id="html_fa656d8573a4835f39ef7d906f4fe202" style="width: 100.0%; height: 100.0%;">Zip Code: 02131 Rent Units: 1398 Income-Restricted Rental Units: 1267</div>`)[0];
+                popup_893bbfe6198406df4314a601d3bbf409.setContent(html_fa656d8573a4835f39ef7d906f4fe202);
+            
+        
+
+        marker_a8b95f4fd64bb1dea546a78070bddefd.bindPopup(popup_893bbfe6198406df4314a601d3bbf409)
+        ;
+
+        
+    
+    
+            var marker_54dd58d2183f41e6afa09d5e30e785b0 = L.marker(
+                [50.3933609, 30.611074969999997],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_9686d8e98f5add0e21a708c46264c5c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_54dd58d2183f41e6afa09d5e30e785b0.setIcon(icon_9686d8e98f5add0e21a708c46264c5c0);
+        
+    
+        var popup_dbf0fd0638c78f6062c470950efb7f0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88ba8db5bcc238852c5b3d107e14e862 = $(`<div id="html_88ba8db5bcc238852c5b3d107e14e862" style="width: 100.0%; height: 100.0%;">Zip Code: 02132 Rent Units: 1030 Income-Restricted Rental Units: 522</div>`)[0];
+                popup_dbf0fd0638c78f6062c470950efb7f0c.setContent(html_88ba8db5bcc238852c5b3d107e14e862);
+            
+        
+
+        marker_54dd58d2183f41e6afa09d5e30e785b0.bindPopup(popup_dbf0fd0638c78f6062c470950efb7f0c)
+        ;
+
+        
+    
+    
+            var marker_4c382a1e774cbccc5c3db6ef853c5f40 = L.marker(
+                [42.35654318004536, -71.13084702414966],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_844374947e8c8f9b163753a2443ec85d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c382a1e774cbccc5c3db6ef853c5f40.setIcon(icon_844374947e8c8f9b163753a2443ec85d);
+        
+    
+        var popup_281cdfbe911a4e404418b135c76ee626 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_673d5e371ceca2e1829580bc7f36a70f = $(`<div id="html_673d5e371ceca2e1829580bc7f36a70f" style="width: 100.0%; height: 100.0%;">Zip Code: 02134 Rent Units: 2076 Income-Restricted Rental Units: 1112</div>`)[0];
+                popup_281cdfbe911a4e404418b135c76ee626.setContent(html_673d5e371ceca2e1829580bc7f36a70f);
+            
+        
+
+        marker_4c382a1e774cbccc5c3db6ef853c5f40.bindPopup(popup_281cdfbe911a4e404418b135c76ee626)
+        ;
+
+        
+    
+    
+            var marker_7a626703b022881423d2bc2796ebd481 = L.marker(
+                [42.3499721124005, -71.15395981591956],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_119f23b79a426c091b6cfef4a84f0b26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a626703b022881423d2bc2796ebd481.setIcon(icon_119f23b79a426c091b6cfef4a84f0b26);
+        
+    
+        var popup_53a338ee45d21ce31530929fa561cd76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61ad3de4b14cd4db3fb521e096d7ed5e = $(`<div id="html_61ad3de4b14cd4db3fb521e096d7ed5e" style="width: 100.0%; height: 100.0%;">Zip Code: 02135 Rent Units: 4273 Income-Restricted Rental Units: 3105</div>`)[0];
+                popup_53a338ee45d21ce31530929fa561cd76.setContent(html_61ad3de4b14cd4db3fb521e096d7ed5e);
+            
+        
+
+        marker_7a626703b022881423d2bc2796ebd481.bindPopup(popup_53a338ee45d21ce31530929fa561cd76)
+        ;
+
+        
+    
+    
+            var marker_eb9249686a88a180deed1640bfb4bb64 = L.marker(
+                [42.25248711822344, -71.12827803218865],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_0d598453683f95cf719ba02d30373f63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb9249686a88a180deed1640bfb4bb64.setIcon(icon_0d598453683f95cf719ba02d30373f63);
+        
+    
+        var popup_63601cc369f8c66aaa60aa9c540b35eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eda1804329235b82cc53a968cd7647ad = $(`<div id="html_eda1804329235b82cc53a968cd7647ad" style="width: 100.0%; height: 100.0%;">Zip Code: 02136 Rent Units: 2070 Income-Restricted Rental Units: 1926</div>`)[0];
+                popup_63601cc369f8c66aaa60aa9c540b35eb.setContent(html_eda1804329235b82cc53a968cd7647ad);
+            
+        
+
+        marker_eb9249686a88a180deed1640bfb4bb64.bindPopup(popup_63601cc369f8c66aaa60aa9c540b35eb)
+        ;
+
+        
+    
+    
+            var marker_343c5298864dc0dfc3c26f6489bebb88 = L.marker(
+                [37.5886903, 127.0910152],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_1c8b8ca3c5e39e6497fea048c34c5ec3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_343c5298864dc0dfc3c26f6489bebb88.setIcon(icon_1c8b8ca3c5e39e6497fea048c34c5ec3);
+        
+    
+        var popup_e6dbe5fbbaba2871ccf3f4c963e30fba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2f4fb8514fd1ad4eb6e5d94b8deb887 = $(`<div id="html_a2f4fb8514fd1ad4eb6e5d94b8deb887" style="width: 100.0%; height: 100.0%;">Zip Code: 02199 Rent Units: 60 Income-Restricted Rental Units: 38</div>`)[0];
+                popup_e6dbe5fbbaba2871ccf3f4c963e30fba.setContent(html_a2f4fb8514fd1ad4eb6e5d94b8deb887);
+            
+        
+
+        marker_343c5298864dc0dfc3c26f6489bebb88.bindPopup(popup_e6dbe5fbbaba2871ccf3f4c963e30fba)
+        ;
+
+        
+    
+    
+            var marker_04775b3af983a87d03de0765fbd687e6 = L.marker(
+                [49.20863675, 3.330382267243553],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_c2ef902d1671a711a417f300715a1406 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_04775b3af983a87d03de0765fbd687e6.setIcon(icon_c2ef902d1671a711a417f300715a1406);
+        
+    
+        var popup_1bbcb31f2e8829a47f117fee86e91e0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23550f281527aeb7aad69f5bf3501e9f = $(`<div id="html_23550f281527aeb7aad69f5bf3501e9f" style="width: 100.0%; height: 100.0%;">Zip Code: 02210 Rent Units: 1500 Income-Restricted Rental Units: 151</div>`)[0];
+                popup_1bbcb31f2e8829a47f117fee86e91e0b.setContent(html_23550f281527aeb7aad69f5bf3501e9f);
+            
+        
+
+        marker_04775b3af983a87d03de0765fbd687e6.bindPopup(popup_1bbcb31f2e8829a47f117fee86e91e0b)
+        ;
+
+        
+    
+    
+            var marker_19f1eabcc702a88bbdf4c002235e93e7 = L.marker(
+                [39.306613375, -1.3684953],
+                {}
+            ).addTo(map_e47cc7ab4090f54c420f1b041bc13d65);
+        
+    
+            var icon_7e723583a000689c1fa5e0b5da17c3eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_19f1eabcc702a88bbdf4c002235e93e7.setIcon(icon_7e723583a000689c1fa5e0b5da17c3eb);
+        
+    
+        var popup_5224c58f498cad3884f5c1541e0999a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aecefd33fe9d22199da719aae63d3f14 = $(`<div id="html_aecefd33fe9d22199da719aae63d3f14" style="width: 100.0%; height: 100.0%;">Zip Code: 02215 Rent Units: 3143 Income-Restricted Rental Units: 762</div>`)[0];
+                popup_5224c58f498cad3884f5c1541e0999a4.setContent(html_aecefd33fe9d22199da719aae63d3f14);
+            
+        
+
+        marker_19f1eabcc702a88bbdf4c002235e93e7.bindPopup(popup_5224c58f498cad3884f5c1541e0999a4)
+        ;
+
+        
+    
+</script>
+</html>
