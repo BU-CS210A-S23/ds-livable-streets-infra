@@ -34,18 +34,18 @@ The other sub-directories of final-project and early-insights have a similar str
 
 Below are the datasets used for each key question. See the notebooks in the directory themselves for more in-depth information.
 
-| Question Sub-directory        | Dataset              |
-| ----------------------------- | -------------------- |
-| bike-lane-early-insights      |                      |
-| greenway-early-insights       | ACS 5-year estimates |
-| bikelane-applied-mid-semester |                      |
-| bus-mid-semester-proposal     |                      |
-| green-line-mid-semester       | ACS 5-year estimates |
-| income-mid-semester           | ACS 5-year estimates |
-| income-final-updates          | ACS 5-year estimates |
+| Question Sub-directory        | Dataset                       |
+| ----------------------------- | ----------------------------- |
+| bike-lane-early-insights      | ACS 5-year estimates          |
+| greenway-early-insights       | ACS 5-year estimates          |
+| bikelane-applied-mid-semester | ACS 5-year estimates          |
+| bus-mid-semester-proposal     | ACS 5-year estimates and MBTA |
+| green-line-mid-semester       | ACS 5-year estimates          |
+| income-mid-semester           | ACS 5-year estimates          |
+| income-final-updates          | ACS 5-year estimates          |
 | bus-final-updates             | ACS 5-year estimates and MBTA |
-|                               |                      |
-|                               |                      |
+|                               |                               |
+|                               |                               |
 
 ## Required Libraries
 
