@@ -2,12 +2,12 @@
 
 ## Member Info
 
-| Name          | School | Class | Email           |
-| ------------- | ------ | ----- | --------------- |
-| William Huang | CAS    | ‘25   | wh@bu.edu       |
-| Jacob Stein   | CAS    | ‘25   | jmstein@bu.edu  |
-| Chin Fung Lam | CAS    | ‘24   | lcfmarco@bu.edu |
-| Nyx Zhao      | CAS    | ‘24   | zhaolili@bu.edu |
+| Name                | School | Class | Email           |
+| ------------------- | ------ | ----- | --------------- |
+| William Huang       | CAS    | ‘25   | wh@bu.edu       |
+| Jacob Stein         | CAS    | ‘25   | jmstein@bu.edu  |
+| Marco Chin Fung Lam | CAS    | ‘24   | lcfmarco@bu.edu |
+| Nyx Zhao            | CAS    | ‘24   | zhaolili@bu.edu |
 
 ## Livable Streets Introduction
 
@@ -41,9 +41,9 @@ Below are the datasets used for each key question. See the notebooks in the dire
 | bikelane-applied-mid-semester |                      |
 | bus-mid-semester-proposal     |                      |
 | green-line-mid-semester       | ACS 5-year estimates |
-| income-mid-semester           |                      |
-|                               |                      |
-|                               |                      |
+| income-mid-semester           | ACS 5-year estimates |
+| income-final-updates          | ACS 5-year estimates |
+| bus-final-updates             | ACS 5-year estimates and MBTA |
 |                               |                      |
 |                               |                      |
 
