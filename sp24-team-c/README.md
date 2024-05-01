@@ -44,8 +44,6 @@ Below are the datasets used for each key question. See the notebooks in the dire
 | income-mid-semester           | ACS 5-year estimates          |
 | income-final-updates          | ACS 5-year estimates          |
 | bus-final-updates             | ACS 5-year estimates and MBTA |
-|                               |                               |
-|                               |                               |
 
 ## Required Libraries
 
